@@ -37,19 +37,10 @@ function random(num) {
       alert("Please Enter a Comment to Submit.");
     }
     else{
-      Email.send({
-        Host : "smtp.gmail.com",
-        Username : 'keeratsingh2212007@gmail.com',
-        Password : "regent_razor4",
-        To : 'gurpreetkaur7385@gmail.com',
-        From : "keeratsingh2212007@gmail.com",
-        Subject : "Comment by Lakshya",
-        Body : "Hi"
-    }).then(
-      alert("Thank You For your Comments ,Lakshya. Wishing You a Happy Birthday Again!!")
-
-    );
+        alert("Thank you, for your comments Devatsi Soni ma'am!! Wishing you a Veryy Happy Birthday Again");
+    
     console.log(comment);
+    }
 
     }
-  }
+  
